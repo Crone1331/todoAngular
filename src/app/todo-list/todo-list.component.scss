@@ -1,0 +1,51 @@
+.container {
+
+  .title {
+    text-align: center;
+  }
+
+  .todo {
+    padding: 20px 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    &__wrapper {
+      display: flex;
+      justify-content: space-between;
+
+      .list {
+        margin-bottom: 16px;
+      }
+    }
+
+    &-elem {
+      display: flex;
+      flex-direction: column;
+      margin: 10px;
+      box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+      padding: 15px;
+
+      &__date {
+        color: rgba(19, 18, 18, 0.534);
+      }
+
+      &__title {
+        text-align: center;
+        margin-bottom: 16px;
+      }
+
+      &__succes {
+        color: rgba(33, 189, 33, 0.603);
+      }
+
+      &__fail {
+        color: rgba(179, 32, 32, 0.678);
+      }
+
+      &__description {
+        color:rgb(39, 28, 15);
+        font-size: 1.1rem;
+      }
+    }
+  }
+}

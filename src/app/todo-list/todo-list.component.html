@@ -1,0 +1,30 @@
+<div class="container">
+  <h1 class="title">TODO лист</h1>
+  <div class="todo" *ngFor = "let todo of elements">
+
+    <div class="todo-elem">
+      <p class="todo-elem__date">
+        {{todo.date}}
+      </p>
+      <h2 class="todo-elem__title">
+        {{todo.title}}
+      </h2>
+      <div class="todo__wrapper">
+        <ul class="todo-elem__succes list">
+          <li class="succes__elem elem-list" *ngFor="let succes of todo.succes">
+            {{succes.numSucces}} {{succes.textSucces}}
+          </li>
+        </ul>
+        <ul class="todo-elem__fail list">
+          <li class="fail__elem elem-list"*ngFor="let fail of todo.fails">
+            {{fail.numFail}} {{fail.textFail}}
+          </li>
+        </ul>
+      </div>
+      <div class="todo-elem__description">
+        {{todo.description}}
+      </div>
+    </div>
+
+  </div>
+</div>
