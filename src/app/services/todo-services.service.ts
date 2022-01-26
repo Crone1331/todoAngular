@@ -26,57 +26,57 @@ export class TodoServicesService {
      {
       id: 1,
       date: '25.01.2022',
-      title: 'Заголовок',
+      title: 'Первый день',
       succes: [
         {
           numSucces: 1,
-          textSucces: 'успех'
+          textSucces: 'посмотрел урок'
 
         },
         {
           numSucces: 2,
-          textSucces: 'успех успех'
+          textSucces: 'выспался'
+        },
+        {
+          numSucces: 3,
+          textSucces: 'сходил в качалку'
         }
       ],
       fails: [
         {
           numFail: 1,
-          textFail: 'неудача',
+          textFail: 'опоздал на автобус',
         },
         {
           numFail: 2,
-          textFail: 'неудача неудача',
+          textFail: 'потерял 100 рублей',
         }
       ],
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, vero.',
+      description: 'Так себе день, ленился.',
      },
 
      {
       id: 1,
-      date: '24.01.2022',
-      title: 'Заголовок',
+      date: '26.01.2022',
+      title: 'Второй день. Делаем что-то другое',
       succes: [
         {
           numSucces: 1,
-          textSucces: 'успех'
+          textSucces: 'сделал кнопку'
 
         },
         {
           numSucces: 2,
-          textSucces: 'успех успех'
+          textSucces: 'добавил слайдер'
         }
       ],
       fails: [
         {
           numFail: 1,
-          textFail: 'неудача',
+          textFail: 'не смог добавить картинку',
         },
-        {
-          numFail: 2,
-          textFail: 'неудача неудача',
-        }
       ],
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, vero. Lorem ipsum dolor sit amet consectetur.',
+      description: 'В целом неплохо, можно было лучше. Бла-бла-бла-бла-бла.',
      },
    ]
 }

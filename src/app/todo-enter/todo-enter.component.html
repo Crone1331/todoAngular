@@ -1,1 +1,33 @@
-<p>todo-enter works!</p>
+<div class="container">
+  <p class="header-title">Добавить новую запись</p>
+  <form name="list" class = "form">
+    <p class = "title__text">Заголовок<br>
+     <input name="title" type="text" size="40">
+    </p>
+
+    <div class="wrapper__list">
+      <div class="list__elem">
+        <p class = "list__success" >Положительные моменты<br>
+          <input name="succes" type="text" size="40" class="succes">
+         </p>
+         <button  type="button" (click)="addSuccesElem()">Добавить</button>
+      </div>
+      <div class="list__elem">
+        <p class = "list__fails">Отрицательные моменты<br>
+          <input name="fail" type="text" size="40" class="fail">
+         </p>
+         <button (click)="addFailElem()" type="button">Добавить</button>
+      </div>
+
+    </div>
+
+    <p>Краткий комментарий<Br>
+     <textarea class ="list__comment" name="comment" cols="40" rows="3"></textarea></p>
+    <p class = "list__button">
+      <input type="button" value="Отправить">
+     <input type="reset" value="Очистить">
+    </p>
+    <div class="test"></div>
+    <div class="test"></div>
+   </form>
+</div>
